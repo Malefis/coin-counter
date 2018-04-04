@@ -1,0 +1,19 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom right, #f0a753, #9c5a0e);
+  width: 100vw;
+  height: 100vh; }
+
+.text {
+  color: #fff; }
+
+.coinOutputs--green {
+  background: linear-gradient(to bottom right, #006700, #00cd00);
+  -webkit-background-clip: text;
+  color: transparent; }
+
+.coinOutputs--white {
+  background: linear-gradient(to bottom right, #f2f2f2, white);
+  -webkit-background-clip: text;
+  color: transparent; }

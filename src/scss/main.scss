@@ -1,0 +1,28 @@
+$colour-primary: rgb(190, 130, 20);
+$color-primary-light: lighten($colour-primary, 15%);
+$color-primary-dark: darken($colour-primary, 15%);
+
+@mixin bgclip-text{
+    -webkit-background-clip: text;
+    color: transparent;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom right, $color-primary-light , $color-primary-dark);
+    width: 100vw;
+    height: 100vh;
+
+}
+.text{
+    color: #fff;
+}
+
+.coinOutputs{
+    background: linear-gradient(to bottom right, darken(white , 5), white);
+    @include bgclip-text;
+    &--green{
+        background: linear-gradient(to bottom right, darken(green,5) , lighten(green,15));
+        @include bgclip-text;
+    }
+}
