@@ -1,0 +1,4 @@
+body{font-family:'Roboto',sans-serif;background-repeat:no-repeat;background-image:linear-gradient(to bottom right,#eaaa35,#79530d);width:100vw;height:100vh}
+.text{color:#fff}.coinOutputs{background:linear-gradient(to bottom right,#f2f2f2,white);-webkit-background-clip:text;color:transparent}
+.coinOutputs--green{background:linear-gradient(to bottom right,#006700,#00cd00);-webkit-background-clip:text;color:transparent}
+/*# sourceMappingURL=maps/style.css.map */
