@@ -23,6 +23,7 @@ function getCoins(){
         balanceOutput.innerHTML += `<p>Coinstar Value: £${coinstarRound}</p>`;
         onePence.innerHTML += `<p>1p | Amount: ${data[0].amount} , Worth: £${data[0].amount * data[0].worth}</p>`
         twoPence.innerHTML += `<p>2p | Amount: ${data[1].amount} , Worth: £${data[1].amount * data[1].worth}</p>`
+        fivePence.innerHTML += `<p>5p | Amount: ${data[2].amount} , Worth: £${data[2].amount * data[2].worth}</p>`
         tenPence.innerHTML += `<p>10p | Amount: ${data[3].amount} , Worth: £${(data[3].amount * data[3].worth).toFixed(2)}</p>`
         twentyPence.innerHTML += `<p>20p | Amount: ${data[4].amount} , Worth: £${(data[4].amount * data[4].worth).toFixed(2)}</p>`
         fiftyPence.innerHTML += `<p>50p | Amount: ${data[5].amount} , Worth: £${data[5].amount * data[5].worth}</p>`
